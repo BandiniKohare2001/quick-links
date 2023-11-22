@@ -1,0 +1,93 @@
+
+body{
+ background-color: rgb(253, 238, 234);
+  /* background-color:  #d6e0f5; */
+
+  margin: 0;
+  padding: 0;
+}
+.main-heading{
+  background-color: white;
+  padding: 20px;
+  margin-top: 0px;
+  box-shadow: 0 2px 20px 0 rgb(199, 197, 197);
+}
+.text-center{
+  text-align: center;
+}
+.colour-dark{
+  color:tomato;
+}
+.app-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.link-generation-card{
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 20px 0 rgb(172, 172, 172);
+  border-radius: 5px;
+  height: 300PX;
+  margin-bottom: 30px;
+  width: 40%;
+  margin-top: 50px;
+}
+.url-input{display: block;
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 1px 1px 2px 0.5px gray;
+}
+
+.btn{
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+border: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 275px;
+  cursor: pointer;
+}
+
+.short-url-input{
+  width: 95%;
+  padding: 5px 10px;
+  font-size: 18px;
+  display: block;
+  margin-right: auto;
+
+}
+.shorturl-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ margin-bottom: 20px;
+ border: none;
+ box-shadow: 1px 1px 2px 0.5px gray;
+
+}
+.coyp-icon{
+  cursor: pointer;
+  height: 25px;
+  padding: 4px;
+  box-shadow: 1px 1px 3px 0.5px gray;
+}
+.all-link-card{
+  background-color: white;
+  padding:10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.all-link-container{
+  height: 73vh;
+  /* background-color: bisque; */
+  overflow-y: scroll;
+}
+.all-link-container::-webkit-scrollbar {
+  display: none;
+}
