@@ -32,6 +32,7 @@ body{
   margin-bottom: 30px;
   width: 40%;
   margin-top: 50px;
+  position: relative;
 }
 .url-input{display: block;
   width: 95%;
@@ -49,45 +50,62 @@ body{
 border: none;
 display: block;
 margin-left: auto;
+margin-top: 40px;
 margin-right: auto;
-width: 275px;
+
   cursor: pointer;
 }
 
 .short-url-input{
-  width: 95%;
+  width: 100%;
+  bottom: 150px;
   padding: 5px 10px;
   font-size: 18px;
   display: block;
   margin-right: auto;
 
 }
-.shorturl-container{
+.short-url-container{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
  margin-bottom: 20px;
+ width: 99%;
  border: none;
  box-shadow: 1px 1px 2px 0.5px gray;
 
 }
+.coyp-icon:hover{
+  background-color:rgb(246, 217, 212);
+}
 .coyp-icon{
+  width: 5%;
   cursor: pointer;
-  height: 25px;
+  height: 27px;
+  box-shadow: 1px 1px 2px 0.5px gray;
   padding: 4px;
-  box-shadow: 1px 1px 3px 0.5px gray;
+
+
 }
-.all-link-card{
-  background-color: white;
-  padding:10px 20px;
-  margin: 20px;
-  border-radius: 10px;
-}
-.all-link-container{
+
+.all-links-container{
   height: 73vh;
   /* background-color: bisque; */
   overflow-y: scroll;
+  /* background-color: rgb(234, 179, 169); */
+  
+  padding: 10px;
+
 }
-.all-link-container::-webkit-scrollbar {
+.all-links-container::-webkit-scrollbar {
   display: none;
+}
+.link-card{
+  background-color: rgb(243, 214, 209);
+  margin-top: 20px;
+  padding: 7px;
+  width: 90%;
+  box-shadow: 1px 1px 2px 0.5px gray;
+}
+.link-text{
+  font-weight: bold;
 }
